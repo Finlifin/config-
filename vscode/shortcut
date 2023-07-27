@@ -1,0 +1,147 @@
+// 将键绑定放在此文件中以覆盖默认值
+[
+    {
+        "key": "alt+backspace",
+        "command": "deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    //导航不选中
+    {
+        "key": "alt+b",
+        "command": "cursorWordLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+e",
+        "command": "cursorWordRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+m",
+        "command": "cursorLineEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+i",
+        "command": "cursorLineStart",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+j",
+        "command": "cursorDown",
+        "when": ""
+    },
+    {
+        "key": "alt+k",
+        "command": "cursorUp",
+        "when": ""
+    },
+    {
+        "key": "alt+h",
+        "command": "cursorLeft",
+        "when": ""
+    },
+    {
+        "key": "alt+l",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+f",
+        "command": "cursorWordRight",
+        "when": "textInputFocus"
+    },
+    //导航时选中
+    {
+        "key": "alt+shift+b",
+        "command": "cursorWordLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+e",
+        "command": "cursorWordRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+m",
+        "command": "cursorLineEndSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+i",
+        "command": "cursorLineStartSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+j",
+        "command": "expandLineSelection",
+        "when": ""
+    },
+    {
+        "key": "alt+shift+k",
+        "command": "cursorUpSelect",
+        "when": ""
+    },
+    {
+        "key": "alt+shift+h",
+        "command": "cursorLeftSelect",
+        "when": ""
+    },
+    {
+        "key": "alt+shift+l",
+        "command": "cursorRightSelect",
+        "when": ""
+    },
+    //常用操作
+    {
+        "key": "alt+o",
+        "command": "editor.action.insertLineAfter",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+o",
+        "command": "editor.action.insertLineBefore",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+u",
+        "command": "editor.action.showHover",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+y",
+        "command": "editor.action.clipboardCopyAction",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+v",
+        "command": "editor.action.clipboardPasteAction",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+y",
+        "command": "editor.action.clipboardCutAction",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+n",
+        "command": "editor.unfold",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+n",
+        "command": "editor.fold",
+        "when": "textInputFocus"
+    },
+    {
+        "command": "-vscode-neovim.send",
+        "key": "ctrl+s",
+        "when": "editorTextFocus && neovim.mode != insert",
+        "args": ":w<CR>"
+    },
+    {
+        "command": "workbench.action.toggleSidebarVisibility",
+        "key": "ctrl+b",
+        "when": "-vscode-neovim.mode != insert"
+    },
+]

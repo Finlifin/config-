@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Elear",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "git.openRepositoryInParentFolders": "never",
+    "[c]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 15,
+    "workbench.editorAssociations": {
+        "*.wasm": "default"
+    },
+    "editor.linkedEditing": true,
+    "files.associations": {
+        "*.h": "c"
+    },
+    "window.zoomLevel": 1,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": true
+}
