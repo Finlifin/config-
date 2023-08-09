@@ -1,0 +1,10 @@
+ls
+printf "hello"
+printf "hello\n"
+exit
+sl
+ls
+sb 50
+nu
+fish
+exit
